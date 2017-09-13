@@ -2,21 +2,15 @@ import java.sql.*;
 
 public class Main {
     public static void main(String[] args) {
-
         //String connString = "jdbc:postgresql://localhost:5432/movierentaltest";
-
 /*
         try {
             Connection myConnection = DriverManager.getConnection(connString, "adrian", "dupa123");
-
             Statement statement = myConnection.createStatement();
-
             ResultSet resultSet = statement.executeQuery("select * from movierental.movie");
-
             while (resultSet.next()){
                 System.out.println(resultSet.getString("title"));
             }
-
         } catch (SQLException e) {
             e.printStackTrace();
         }
